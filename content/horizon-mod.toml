@@ -1,0 +1,11 @@
+# Mekanism: Tools for Horizon - a content-only port of the pack's
+# MekanismTools-1.21.1-10.7.19.85.jar (MIT, mekanism/Mekanism).
+# The items are declared from 26.3 vanilla templates, the assets, lang,
+# recipes and tags are the jar's own files (26.3 formats). It is
+# LOCAL-ONLY until the maintainer approves publishing (ARCHITECTURE.md 8).
+id = "mekanismtools"
+name = "Mekanism: Tools"
+version = "10.7.19"
+api = "0.2"
+side = "both"
+capabilities = ["registries"]

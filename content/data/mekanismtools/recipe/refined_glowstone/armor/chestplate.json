@@ -1,0 +1,16 @@
+{
+  "category": "equipment",
+  "key": {
+    "I": "#c:ingots/refined_glowstone"
+  },
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismtools:refined_glowstone_chestplate"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,11 @@
+{
+  "components": {
+    "minecraft:equippable": {
+      "asset_id": "mekanismtools:lapis_lazuli",
+      "equip_sound": "minecraft:item.armor.equip_gold",
+      "slot": "legs"
+    },
+    "minecraft:item_model": "mekanismtools:lapis_lazuli_leggings"
+  },
+  "template": "minecraft:golden_leggings"
+}

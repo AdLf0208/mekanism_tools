@@ -1,0 +1,11 @@
+{
+  "components": {
+    "minecraft:equippable": {
+      "asset_id": "mekanismtools:osmium",
+      "equip_sound": "minecraft:item.armor.equip_diamond",
+      "slot": "feet"
+    },
+    "minecraft:item_model": "mekanismtools:osmium_boots"
+  },
+  "template": "minecraft:diamond_boots"
+}

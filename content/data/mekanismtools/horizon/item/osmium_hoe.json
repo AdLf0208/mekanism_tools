@@ -1,0 +1,6 @@
+{
+  "components": {
+    "minecraft:item_model": "mekanismtools:osmium_hoe"
+  },
+  "template": "minecraft:iron_hoe"
+}

@@ -1,0 +1,17 @@
+{
+  "category": "equipment",
+  "key": {
+    "I": "#c:ingots/refined_glowstone",
+    "R": "#c:rods/wooden"
+  },
+  "pattern": [
+    "III",
+    " R ",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismtools:refined_glowstone_pickaxe"
+  },
+  "type": "minecraft:crafting_shaped"
+}

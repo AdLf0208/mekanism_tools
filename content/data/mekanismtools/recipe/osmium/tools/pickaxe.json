@@ -1,0 +1,17 @@
+{
+  "category": "equipment",
+  "key": {
+    "I": "#c:ingots/osmium",
+    "R": "#c:rods/wooden"
+  },
+  "pattern": [
+    "III",
+    " R ",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismtools:osmium_pickaxe"
+  },
+  "type": "minecraft:crafting_shaped"
+}

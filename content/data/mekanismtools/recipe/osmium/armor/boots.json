@@ -1,0 +1,15 @@
+{
+  "category": "equipment",
+  "key": {
+    "I": "#c:ingots/osmium"
+  },
+  "pattern": [
+    "I I",
+    "I I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismtools:osmium_boots"
+  },
+  "type": "minecraft:crafting_shaped"
+}

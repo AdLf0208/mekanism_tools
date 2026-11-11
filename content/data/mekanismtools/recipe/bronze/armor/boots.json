@@ -1,0 +1,15 @@
+{
+  "category": "equipment",
+  "key": {
+    "I": "#c:ingots/bronze"
+  },
+  "pattern": [
+    "I I",
+    "I I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismtools:bronze_boots"
+  },
+  "type": "minecraft:crafting_shaped"
+}

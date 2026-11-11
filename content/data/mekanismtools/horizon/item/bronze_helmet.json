@@ -1,0 +1,11 @@
+{
+  "components": {
+    "minecraft:equippable": {
+      "asset_id": "mekanismtools:bronze",
+      "equip_sound": "minecraft:item.armor.equip_diamond",
+      "slot": "head"
+    },
+    "minecraft:item_model": "mekanismtools:bronze_helmet"
+  },
+  "template": "minecraft:diamond_helmet"
+}

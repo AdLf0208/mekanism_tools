@@ -1,0 +1,16 @@
+[package]
+# Content port of: Mekanism: Tools 10.7.19.85 (mekanism/Mekanism, MIT per the
+# jar's META-INF/neoforge.mods.toml). The item census is a clean-room Rust
+# model; the textures, models and lang are the upstream mod's own assets and
+# are LOCAL-ONLY until the maintainer approves publishing (ARCHITECTURE.md §8).
+name = "horizon-mekanismtools"
+version = "10.7.19"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+description = "Mekanism: Tools' 72 tool, shield and armour items for Horizon"
+publish = false
+
+[lib]
+# This exact source is also injected as a same-crate module by horizon-mixins.
+path = "mixins/mekanismtools/runtime.rs"

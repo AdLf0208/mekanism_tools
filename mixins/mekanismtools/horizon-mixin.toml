@@ -1,0 +1,19 @@
+[mod]
+id = "mekanismtools"
+version = "10.7.19"
+priority = 100
+
+[compatibility]
+horizon_revision = "1d63e0a5a37a7a708eb0b32b49bf0dfeb28ed8a9"
+
+# The pure item census (standalone crate lib, injected as
+# `crate::game::mekanismtools`). This is a data-tier port: the 72 items are
+# declared in ../content from 26.3 vanilla templates, so this bundle has no
+# injection. The tests pin the families, the template map, the harvest tiers,
+# the armour equipment ids and the paxel rule shape the content generator
+# writes.
+[[module]]
+id = "runtime"
+file = "crates/horizon-client/src/game.rs"
+name = "mekanismtools"
+source = "runtime.rs"

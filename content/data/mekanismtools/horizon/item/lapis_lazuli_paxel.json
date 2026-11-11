@@ -1,0 +1,30 @@
+{
+  "components": {
+    "minecraft:block_transformer": "minecraft:axe",
+    "minecraft:item_model": "mekanismtools:lapis_lazuli_paxel",
+    "minecraft:tool": {
+      "rules": [
+        {
+          "blocks": "#mekanismtools:incorrect_for_lapis_lazuli_tool",
+          "correct_for_drops": false
+        },
+        {
+          "blocks": "#minecraft:mineable/pickaxe",
+          "correct_for_drops": true,
+          "speed": 4.0
+        },
+        {
+          "blocks": "#minecraft:mineable/axe",
+          "correct_for_drops": true,
+          "speed": 4.0
+        },
+        {
+          "blocks": "#minecraft:mineable/shovel",
+          "correct_for_drops": true,
+          "speed": 4.0
+        }
+      ]
+    }
+  },
+  "template": "minecraft:stone_pickaxe"
+}

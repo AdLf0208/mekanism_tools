@@ -1,0 +1,6 @@
+{
+  "components": {
+    "minecraft:item_model": "mekanismtools:bronze_hoe"
+  },
+  "template": "minecraft:iron_hoe"
+}

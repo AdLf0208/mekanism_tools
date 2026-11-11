@@ -1,0 +1,6 @@
+{
+  "components": {
+    "minecraft:item_model": "mekanismtools:steel_pickaxe"
+  },
+  "template": "minecraft:diamond_pickaxe"
+}
