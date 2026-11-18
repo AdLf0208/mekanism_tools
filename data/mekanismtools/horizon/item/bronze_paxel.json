@@ -1,0 +1,30 @@
+{
+  "components": {
+    "minecraft:block_transformer": "minecraft:axe",
+    "minecraft:item_model": "mekanismtools:bronze_paxel",
+    "minecraft:tool": {
+      "rules": [
+        {
+          "blocks": "#mekanismtools:incorrect_for_bronze_tool",
+          "correct_for_drops": false
+        },
+        {
+          "blocks": "#minecraft:mineable/pickaxe",
+          "correct_for_drops": true,
+          "speed": 6.0
+        },
+        {
+          "blocks": "#minecraft:mineable/axe",
+          "correct_for_drops": true,
+          "speed": 6.0
+        },
+        {
+          "blocks": "#minecraft:mineable/shovel",
+          "correct_for_drops": true,
+          "speed": 6.0
+        }
+      ]
+    }
+  },
+  "template": "minecraft:iron_pickaxe"
+}

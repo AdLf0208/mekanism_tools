@@ -1,0 +1,17 @@
+{
+  "category": "equipment",
+  "key": {
+    "I": "#c:ingots/bronze",
+    "R": "#c:rods/wooden"
+  },
+  "pattern": [
+    "III",
+    " R ",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismtools:bronze_pickaxe"
+  },
+  "type": "minecraft:crafting_shaped"
+}

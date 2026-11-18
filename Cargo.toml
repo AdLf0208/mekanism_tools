@@ -1,0 +1,21 @@
+[package]
+# Port of Mekanism: Tools 10.7.19.85 (mekanism/Mekanism, MIT per the jar's
+# META-INF/neoforge.mods.toml) to Horizon 26.3 at the pin in horizon-mod.toml.
+# Clean-room: the jar's own data files were read (item models, recipes, tags,
+# lang) and its Java was not; the 72 items are declared from 26.3 vanilla item
+# templates. Local-only until publishing is approved (ARCHITECTURE.md §8),
+# publishable under MIT with this source.
+#
+# Cargo's name and version are not the mod's identity: horizon-mod.toml is.
+name = "mekanismtools"
+version = "0.2.0"
+edition = "2024"
+license = "MIT"
+description = "Mekanism: Tools for Horizon, slice 1: the 72 items, data tier"
+publish = false
+
+[dependencies]
+# The pinned SDK's API crate, fetched into .horizon/sdk/ by any `cargo horizon-mod` command (the
+# launcher builds against its own copy of the same build). Any other registry dependency must be
+# pinned with `horizon-launcher native-lock .` before building.
+horizon-mod-api = { path = ".horizon/sdk/api/crates/horizon-mod-api" }

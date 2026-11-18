@@ -1,0 +1,15 @@
+{
+  "category": "equipment",
+  "key": {
+    "I": "#c:gems/lapis"
+  },
+  "pattern": [
+    "I I",
+    "I I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismtools:lapis_lazuli_boots"
+  },
+  "type": "minecraft:crafting_shaped"
+}

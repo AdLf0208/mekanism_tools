@@ -1,0 +1,17 @@
+{
+  "category": "equipment",
+  "key": {
+    "I": "#c:ingots/steel",
+    "R": "#c:ingots/iron"
+  },
+  "pattern": [
+    "II",
+    "IR",
+    " R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismtools:steel_axe"
+  },
+  "type": "minecraft:crafting_shaped"
+}

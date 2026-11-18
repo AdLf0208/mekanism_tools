@@ -1,0 +1,6 @@
+{
+  "components": {
+    "minecraft:item_model": "mekanismtools:lapis_lazuli_axe"
+  },
+  "template": "minecraft:stone_axe"
+}

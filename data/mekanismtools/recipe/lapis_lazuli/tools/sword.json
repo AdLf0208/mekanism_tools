@@ -1,0 +1,17 @@
+{
+  "category": "equipment",
+  "key": {
+    "I": "#c:gems/lapis",
+    "R": "#c:rods/wooden"
+  },
+  "pattern": [
+    "I",
+    "I",
+    "R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismtools:lapis_lazuli_sword"
+  },
+  "type": "minecraft:crafting_shaped"
+}

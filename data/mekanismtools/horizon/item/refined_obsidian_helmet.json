@@ -1,0 +1,11 @@
+{
+  "components": {
+    "minecraft:equippable": {
+      "asset_id": "mekanismtools:refined_obsidian",
+      "equip_sound": "minecraft:item.armor.equip_netherite",
+      "slot": "head"
+    },
+    "minecraft:item_model": "mekanismtools:refined_obsidian_helmet"
+  },
+  "template": "minecraft:netherite_helmet"
+}

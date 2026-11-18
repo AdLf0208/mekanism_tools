@@ -1,0 +1,17 @@
+{
+  "category": "equipment",
+  "key": {
+    "I": "#c:ingots/refined_glowstone",
+    "R": "#c:rods/wooden"
+  },
+  "pattern": [
+    "I",
+    "I",
+    "R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismtools:refined_glowstone_sword"
+  },
+  "type": "minecraft:crafting_shaped"
+}

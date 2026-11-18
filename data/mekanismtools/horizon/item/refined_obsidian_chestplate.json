@@ -1,0 +1,11 @@
+{
+  "components": {
+    "minecraft:equippable": {
+      "asset_id": "mekanismtools:refined_obsidian",
+      "equip_sound": "minecraft:item.armor.equip_netherite",
+      "slot": "chest"
+    },
+    "minecraft:item_model": "mekanismtools:refined_obsidian_chestplate"
+  },
+  "template": "minecraft:netherite_chestplate"
+}

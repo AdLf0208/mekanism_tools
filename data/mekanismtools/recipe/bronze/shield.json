@@ -1,0 +1,17 @@
+{
+  "category": "equipment",
+  "key": {
+    "I": "#c:ingots/bronze",
+    "P": "minecraft:shield"
+  },
+  "pattern": [
+    "IPI",
+    "III",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismtools:bronze_shield"
+  },
+  "type": "minecraft:crafting_shaped"
+}

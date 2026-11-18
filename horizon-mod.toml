@@ -1,0 +1,47 @@
+# Mekanism: Tools for Horizon — one flat SDK package (mod API 0.2).
+#
+# Migrated 2026-11-18 from the retired `.hnmod` container (Horizon's mod-API
+# merge #16941, launcher ≥ 0.2.70). The retired tree — the mixin plan, the
+# compatibility file, `content/`'s own manifest and package, the old Cargo
+# manifest and the staging tools — is kept as evidence at
+# `ports/_shared/evidence/mekanismtools/retired-hnmod-0.1.0/`; the content it
+# carried (`assets/`, `data/`, 393 files) is now this package's content half,
+# byte-identical.
+#
+# Licence: MIT, read from the jar's `META-INF/neoforge.mods.toml`
+# (`MekanismTools-1.21.1-10.7.19.85.jar`, SHA-1 4433b3ee…50bc) and rank 0 in
+# `ports/_shared/licence-precheck.csv`. The `LICENSE` and `LICENSE-NOTICE.md` at
+# this root travel inside the package. Local-only until the maintainer approves
+# publishing (ARCHITECTURE.md §8).
+id = "mekanismtools"
+name = "Mekanism: Tools"
+version = "0.2.0"
+description = """A port of Mekanism: Tools for Horizon: 72 items — axes, hoes, pickaxes, shovels, swords,
+paxels, shields and four armour slots in bronze, lapis lazuli, osmium, refined glowstone, refined
+obsidian and steel — declared from 26.3 vanilla item templates, with the mod's own models,
+textures, equipment layers, language file, 65 recipes and its tool and armour tags. All 72 items
+are give-able, the 24 armour pieces equip into their own slot, the paxels carry the pickaxe, axe
+and shovel rules of the three tools they replace, and the creative tab lists every item. This is
+a data-tier carry: its 72-item census is a test-only Rust module, so there is no behaviour hook.
+An add-on that requires Mekanism: 55 of the 65 recipes need its ingots, so only 10 work without
+it, and the eleven non-netherite paxels (and so the netherite paxel) have no survival recipe — the
+paxel recipe type is not carried, so they are creative/give only. An item's harvest tier,
+durability and attack damage are its vanilla template's, not Mekanism's per-material numbers;
+shields use the vanilla shield template and upstream's own shield behaviour is not carried."""
+authors = ["Aidancbrady", "Thommy101", "Thiakil", "pupnewfster", "dizzyd", "AdLf0208"]
+license = "MIT"
+homepage = "https://github.com/AdLf0208/mekanismtools"
+issues = "https://github.com/mekanism/Mekanism/issues"
+# The content API: exact and checked. This package carries blocks' worth of items only, so the
+# capability is a real claim (72 items are declared); it is also the one value the schema has.
+api = "0.2"
+# The installation side, not a hook's: the items are declared server-side, and a LAN host or a
+# single-player world runs that inside the client installation. A content mod that is not "both"
+# is not sent to joining players by the mod-list check.
+side = "both"
+capabilities = ["registries"]
+
+[native]
+game = "26.3"
+horizon = "0b14f8acfd97fa2c750e42795249dcc981178ca4"
+mixins = "e59da9094f0c2fdda6c627fe9eff22dec6a906f0"

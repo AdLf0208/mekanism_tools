@@ -1,0 +1,6 @@
+{
+  "components": {
+    "minecraft:item_model": "mekanismtools:steel_axe"
+  },
+  "template": "minecraft:diamond_axe"
+}

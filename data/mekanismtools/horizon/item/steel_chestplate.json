@@ -1,0 +1,11 @@
+{
+  "components": {
+    "minecraft:equippable": {
+      "asset_id": "mekanismtools:steel",
+      "equip_sound": "minecraft:item.armor.equip_diamond",
+      "slot": "chest"
+    },
+    "minecraft:item_model": "mekanismtools:steel_chestplate"
+  },
+  "template": "minecraft:diamond_chestplate"
+}

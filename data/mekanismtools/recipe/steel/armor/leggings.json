@@ -1,0 +1,16 @@
+{
+  "category": "equipment",
+  "key": {
+    "I": "#c:ingots/steel"
+  },
+  "pattern": [
+    "III",
+    "I I",
+    "I I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismtools:steel_leggings"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,17 @@
+{
+  "category": "equipment",
+  "key": {
+    "I": "#c:gems/lapis",
+    "R": "#c:rods/wooden"
+  },
+  "pattern": [
+    "II",
+    " R",
+    " R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismtools:lapis_lazuli_hoe"
+  },
+  "type": "minecraft:crafting_shaped"
+}

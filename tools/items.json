@@ -1,0 +1,691 @@
+{
+  "counts": {
+    "armour": 24,
+    "equipment": 6,
+    "items": 72,
+    "models": 66,
+    "paxels": 12,
+    "recipes": 65,
+    "shields": 6,
+    "skipped_recipes": 22,
+    "textures": 66,
+    "tool_items": 30,
+    "trim_models_skipped": 240
+  },
+  "items": [
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "bronze_axe",
+      "item_model": "mekanismtools:bronze_axe",
+      "kind": "axe",
+      "material": "bronze",
+      "template": "minecraft:iron_axe"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "bronze_hoe",
+      "item_model": "mekanismtools:bronze_hoe",
+      "kind": "hoe",
+      "material": "bronze",
+      "template": "minecraft:iron_hoe"
+    },
+    {
+      "armour_slot": null,
+      "family": "paxel",
+      "id": "bronze_paxel",
+      "item_model": "mekanismtools:bronze_paxel",
+      "kind": "paxel",
+      "material": "bronze",
+      "template": "minecraft:iron_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "bronze_pickaxe",
+      "item_model": "mekanismtools:bronze_pickaxe",
+      "kind": "pickaxe",
+      "material": "bronze",
+      "template": "minecraft:iron_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "shield",
+      "id": "bronze_shield",
+      "item_model": "mekanismtools:bronze_shield",
+      "kind": "shield",
+      "material": "bronze",
+      "template": "minecraft:shield"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "bronze_shovel",
+      "item_model": "mekanismtools:bronze_shovel",
+      "kind": "shovel",
+      "material": "bronze",
+      "template": "minecraft:iron_shovel"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "bronze_sword",
+      "item_model": "mekanismtools:bronze_sword",
+      "kind": "sword",
+      "material": "bronze",
+      "template": "minecraft:iron_sword"
+    },
+    {
+      "armour_slot": "head",
+      "family": "armour",
+      "id": "bronze_helmet",
+      "item_model": "mekanismtools:bronze_helmet",
+      "kind": "helmet",
+      "material": "bronze",
+      "template": "minecraft:diamond_helmet"
+    },
+    {
+      "armour_slot": "chest",
+      "family": "armour",
+      "id": "bronze_chestplate",
+      "item_model": "mekanismtools:bronze_chestplate",
+      "kind": "chestplate",
+      "material": "bronze",
+      "template": "minecraft:diamond_chestplate"
+    },
+    {
+      "armour_slot": "legs",
+      "family": "armour",
+      "id": "bronze_leggings",
+      "item_model": "mekanismtools:bronze_leggings",
+      "kind": "leggings",
+      "material": "bronze",
+      "template": "minecraft:diamond_leggings"
+    },
+    {
+      "armour_slot": "feet",
+      "family": "armour",
+      "id": "bronze_boots",
+      "item_model": "mekanismtools:bronze_boots",
+      "kind": "boots",
+      "material": "bronze",
+      "template": "minecraft:diamond_boots"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "lapis_lazuli_axe",
+      "item_model": "mekanismtools:lapis_lazuli_axe",
+      "kind": "axe",
+      "material": "lapis_lazuli",
+      "template": "minecraft:stone_axe"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "lapis_lazuli_hoe",
+      "item_model": "mekanismtools:lapis_lazuli_hoe",
+      "kind": "hoe",
+      "material": "lapis_lazuli",
+      "template": "minecraft:stone_hoe"
+    },
+    {
+      "armour_slot": null,
+      "family": "paxel",
+      "id": "lapis_lazuli_paxel",
+      "item_model": "mekanismtools:lapis_lazuli_paxel",
+      "kind": "paxel",
+      "material": "lapis_lazuli",
+      "template": "minecraft:stone_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "lapis_lazuli_pickaxe",
+      "item_model": "mekanismtools:lapis_lazuli_pickaxe",
+      "kind": "pickaxe",
+      "material": "lapis_lazuli",
+      "template": "minecraft:stone_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "shield",
+      "id": "lapis_lazuli_shield",
+      "item_model": "mekanismtools:lapis_lazuli_shield",
+      "kind": "shield",
+      "material": "lapis_lazuli",
+      "template": "minecraft:shield"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "lapis_lazuli_shovel",
+      "item_model": "mekanismtools:lapis_lazuli_shovel",
+      "kind": "shovel",
+      "material": "lapis_lazuli",
+      "template": "minecraft:stone_shovel"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "lapis_lazuli_sword",
+      "item_model": "mekanismtools:lapis_lazuli_sword",
+      "kind": "sword",
+      "material": "lapis_lazuli",
+      "template": "minecraft:stone_sword"
+    },
+    {
+      "armour_slot": "head",
+      "family": "armour",
+      "id": "lapis_lazuli_helmet",
+      "item_model": "mekanismtools:lapis_lazuli_helmet",
+      "kind": "helmet",
+      "material": "lapis_lazuli",
+      "template": "minecraft:golden_helmet"
+    },
+    {
+      "armour_slot": "chest",
+      "family": "armour",
+      "id": "lapis_lazuli_chestplate",
+      "item_model": "mekanismtools:lapis_lazuli_chestplate",
+      "kind": "chestplate",
+      "material": "lapis_lazuli",
+      "template": "minecraft:golden_chestplate"
+    },
+    {
+      "armour_slot": "legs",
+      "family": "armour",
+      "id": "lapis_lazuli_leggings",
+      "item_model": "mekanismtools:lapis_lazuli_leggings",
+      "kind": "leggings",
+      "material": "lapis_lazuli",
+      "template": "minecraft:golden_leggings"
+    },
+    {
+      "armour_slot": "feet",
+      "family": "armour",
+      "id": "lapis_lazuli_boots",
+      "item_model": "mekanismtools:lapis_lazuli_boots",
+      "kind": "boots",
+      "material": "lapis_lazuli",
+      "template": "minecraft:golden_boots"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "osmium_axe",
+      "item_model": "mekanismtools:osmium_axe",
+      "kind": "axe",
+      "material": "osmium",
+      "template": "minecraft:iron_axe"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "osmium_hoe",
+      "item_model": "mekanismtools:osmium_hoe",
+      "kind": "hoe",
+      "material": "osmium",
+      "template": "minecraft:iron_hoe"
+    },
+    {
+      "armour_slot": null,
+      "family": "paxel",
+      "id": "osmium_paxel",
+      "item_model": "mekanismtools:osmium_paxel",
+      "kind": "paxel",
+      "material": "osmium",
+      "template": "minecraft:iron_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "osmium_pickaxe",
+      "item_model": "mekanismtools:osmium_pickaxe",
+      "kind": "pickaxe",
+      "material": "osmium",
+      "template": "minecraft:iron_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "shield",
+      "id": "osmium_shield",
+      "item_model": "mekanismtools:osmium_shield",
+      "kind": "shield",
+      "material": "osmium",
+      "template": "minecraft:shield"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "osmium_shovel",
+      "item_model": "mekanismtools:osmium_shovel",
+      "kind": "shovel",
+      "material": "osmium",
+      "template": "minecraft:iron_shovel"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "osmium_sword",
+      "item_model": "mekanismtools:osmium_sword",
+      "kind": "sword",
+      "material": "osmium",
+      "template": "minecraft:iron_sword"
+    },
+    {
+      "armour_slot": "head",
+      "family": "armour",
+      "id": "osmium_helmet",
+      "item_model": "mekanismtools:osmium_helmet",
+      "kind": "helmet",
+      "material": "osmium",
+      "template": "minecraft:diamond_helmet"
+    },
+    {
+      "armour_slot": "chest",
+      "family": "armour",
+      "id": "osmium_chestplate",
+      "item_model": "mekanismtools:osmium_chestplate",
+      "kind": "chestplate",
+      "material": "osmium",
+      "template": "minecraft:diamond_chestplate"
+    },
+    {
+      "armour_slot": "legs",
+      "family": "armour",
+      "id": "osmium_leggings",
+      "item_model": "mekanismtools:osmium_leggings",
+      "kind": "leggings",
+      "material": "osmium",
+      "template": "minecraft:diamond_leggings"
+    },
+    {
+      "armour_slot": "feet",
+      "family": "armour",
+      "id": "osmium_boots",
+      "item_model": "mekanismtools:osmium_boots",
+      "kind": "boots",
+      "material": "osmium",
+      "template": "minecraft:diamond_boots"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "refined_glowstone_axe",
+      "item_model": "mekanismtools:refined_glowstone_axe",
+      "kind": "axe",
+      "material": "refined_glowstone",
+      "template": "minecraft:diamond_axe"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "refined_glowstone_hoe",
+      "item_model": "mekanismtools:refined_glowstone_hoe",
+      "kind": "hoe",
+      "material": "refined_glowstone",
+      "template": "minecraft:diamond_hoe"
+    },
+    {
+      "armour_slot": null,
+      "family": "paxel",
+      "id": "refined_glowstone_paxel",
+      "item_model": "mekanismtools:refined_glowstone_paxel",
+      "kind": "paxel",
+      "material": "refined_glowstone",
+      "template": "minecraft:diamond_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "refined_glowstone_pickaxe",
+      "item_model": "mekanismtools:refined_glowstone_pickaxe",
+      "kind": "pickaxe",
+      "material": "refined_glowstone",
+      "template": "minecraft:diamond_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "shield",
+      "id": "refined_glowstone_shield",
+      "item_model": "mekanismtools:refined_glowstone_shield",
+      "kind": "shield",
+      "material": "refined_glowstone",
+      "template": "minecraft:shield"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "refined_glowstone_shovel",
+      "item_model": "mekanismtools:refined_glowstone_shovel",
+      "kind": "shovel",
+      "material": "refined_glowstone",
+      "template": "minecraft:diamond_shovel"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "refined_glowstone_sword",
+      "item_model": "mekanismtools:refined_glowstone_sword",
+      "kind": "sword",
+      "material": "refined_glowstone",
+      "template": "minecraft:diamond_sword"
+    },
+    {
+      "armour_slot": "head",
+      "family": "armour",
+      "id": "refined_glowstone_helmet",
+      "item_model": "mekanismtools:refined_glowstone_helmet",
+      "kind": "helmet",
+      "material": "refined_glowstone",
+      "template": "minecraft:diamond_helmet"
+    },
+    {
+      "armour_slot": "chest",
+      "family": "armour",
+      "id": "refined_glowstone_chestplate",
+      "item_model": "mekanismtools:refined_glowstone_chestplate",
+      "kind": "chestplate",
+      "material": "refined_glowstone",
+      "template": "minecraft:diamond_chestplate"
+    },
+    {
+      "armour_slot": "legs",
+      "family": "armour",
+      "id": "refined_glowstone_leggings",
+      "item_model": "mekanismtools:refined_glowstone_leggings",
+      "kind": "leggings",
+      "material": "refined_glowstone",
+      "template": "minecraft:diamond_leggings"
+    },
+    {
+      "armour_slot": "feet",
+      "family": "armour",
+      "id": "refined_glowstone_boots",
+      "item_model": "mekanismtools:refined_glowstone_boots",
+      "kind": "boots",
+      "material": "refined_glowstone",
+      "template": "minecraft:diamond_boots"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "refined_obsidian_axe",
+      "item_model": "mekanismtools:refined_obsidian_axe",
+      "kind": "axe",
+      "material": "refined_obsidian",
+      "template": "minecraft:netherite_axe"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "refined_obsidian_hoe",
+      "item_model": "mekanismtools:refined_obsidian_hoe",
+      "kind": "hoe",
+      "material": "refined_obsidian",
+      "template": "minecraft:netherite_hoe"
+    },
+    {
+      "armour_slot": null,
+      "family": "paxel",
+      "id": "refined_obsidian_paxel",
+      "item_model": "mekanismtools:refined_obsidian_paxel",
+      "kind": "paxel",
+      "material": "refined_obsidian",
+      "template": "minecraft:netherite_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "refined_obsidian_pickaxe",
+      "item_model": "mekanismtools:refined_obsidian_pickaxe",
+      "kind": "pickaxe",
+      "material": "refined_obsidian",
+      "template": "minecraft:netherite_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "shield",
+      "id": "refined_obsidian_shield",
+      "item_model": "mekanismtools:refined_obsidian_shield",
+      "kind": "shield",
+      "material": "refined_obsidian",
+      "template": "minecraft:shield"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "refined_obsidian_shovel",
+      "item_model": "mekanismtools:refined_obsidian_shovel",
+      "kind": "shovel",
+      "material": "refined_obsidian",
+      "template": "minecraft:netherite_shovel"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "refined_obsidian_sword",
+      "item_model": "mekanismtools:refined_obsidian_sword",
+      "kind": "sword",
+      "material": "refined_obsidian",
+      "template": "minecraft:netherite_sword"
+    },
+    {
+      "armour_slot": "head",
+      "family": "armour",
+      "id": "refined_obsidian_helmet",
+      "item_model": "mekanismtools:refined_obsidian_helmet",
+      "kind": "helmet",
+      "material": "refined_obsidian",
+      "template": "minecraft:netherite_helmet"
+    },
+    {
+      "armour_slot": "chest",
+      "family": "armour",
+      "id": "refined_obsidian_chestplate",
+      "item_model": "mekanismtools:refined_obsidian_chestplate",
+      "kind": "chestplate",
+      "material": "refined_obsidian",
+      "template": "minecraft:netherite_chestplate"
+    },
+    {
+      "armour_slot": "legs",
+      "family": "armour",
+      "id": "refined_obsidian_leggings",
+      "item_model": "mekanismtools:refined_obsidian_leggings",
+      "kind": "leggings",
+      "material": "refined_obsidian",
+      "template": "minecraft:netherite_leggings"
+    },
+    {
+      "armour_slot": "feet",
+      "family": "armour",
+      "id": "refined_obsidian_boots",
+      "item_model": "mekanismtools:refined_obsidian_boots",
+      "kind": "boots",
+      "material": "refined_obsidian",
+      "template": "minecraft:netherite_boots"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "steel_axe",
+      "item_model": "mekanismtools:steel_axe",
+      "kind": "axe",
+      "material": "steel",
+      "template": "minecraft:diamond_axe"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "steel_hoe",
+      "item_model": "mekanismtools:steel_hoe",
+      "kind": "hoe",
+      "material": "steel",
+      "template": "minecraft:diamond_hoe"
+    },
+    {
+      "armour_slot": null,
+      "family": "paxel",
+      "id": "steel_paxel",
+      "item_model": "mekanismtools:steel_paxel",
+      "kind": "paxel",
+      "material": "steel",
+      "template": "minecraft:diamond_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "steel_pickaxe",
+      "item_model": "mekanismtools:steel_pickaxe",
+      "kind": "pickaxe",
+      "material": "steel",
+      "template": "minecraft:diamond_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "shield",
+      "id": "steel_shield",
+      "item_model": "mekanismtools:steel_shield",
+      "kind": "shield",
+      "material": "steel",
+      "template": "minecraft:shield"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "steel_shovel",
+      "item_model": "mekanismtools:steel_shovel",
+      "kind": "shovel",
+      "material": "steel",
+      "template": "minecraft:diamond_shovel"
+    },
+    {
+      "armour_slot": null,
+      "family": "tool",
+      "id": "steel_sword",
+      "item_model": "mekanismtools:steel_sword",
+      "kind": "sword",
+      "material": "steel",
+      "template": "minecraft:diamond_sword"
+    },
+    {
+      "armour_slot": "head",
+      "family": "armour",
+      "id": "steel_helmet",
+      "item_model": "mekanismtools:steel_helmet",
+      "kind": "helmet",
+      "material": "steel",
+      "template": "minecraft:diamond_helmet"
+    },
+    {
+      "armour_slot": "chest",
+      "family": "armour",
+      "id": "steel_chestplate",
+      "item_model": "mekanismtools:steel_chestplate",
+      "kind": "chestplate",
+      "material": "steel",
+      "template": "minecraft:diamond_chestplate"
+    },
+    {
+      "armour_slot": "legs",
+      "family": "armour",
+      "id": "steel_leggings",
+      "item_model": "mekanismtools:steel_leggings",
+      "kind": "leggings",
+      "material": "steel",
+      "template": "minecraft:diamond_leggings"
+    },
+    {
+      "armour_slot": "feet",
+      "family": "armour",
+      "id": "steel_boots",
+      "item_model": "mekanismtools:steel_boots",
+      "kind": "boots",
+      "material": "steel",
+      "template": "minecraft:diamond_boots"
+    },
+    {
+      "armour_slot": null,
+      "family": "paxel",
+      "id": "wood_paxel",
+      "item_model": "mekanismtools:wood_paxel",
+      "kind": "paxel",
+      "material": "wood",
+      "template": "minecraft:wooden_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "paxel",
+      "id": "stone_paxel",
+      "item_model": "mekanismtools:stone_paxel",
+      "kind": "paxel",
+      "material": "stone",
+      "template": "minecraft:stone_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "paxel",
+      "id": "iron_paxel",
+      "item_model": "mekanismtools:iron_paxel",
+      "kind": "paxel",
+      "material": "iron",
+      "template": "minecraft:iron_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "paxel",
+      "id": "gold_paxel",
+      "item_model": "mekanismtools:gold_paxel",
+      "kind": "paxel",
+      "material": "gold",
+      "template": "minecraft:golden_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "paxel",
+      "id": "diamond_paxel",
+      "item_model": "mekanismtools:diamond_paxel",
+      "kind": "paxel",
+      "material": "diamond",
+      "template": "minecraft:diamond_pickaxe"
+    },
+    {
+      "armour_slot": null,
+      "family": "paxel",
+      "id": "netherite_paxel",
+      "item_model": "mekanismtools:netherite_paxel",
+      "kind": "paxel",
+      "material": "netherite",
+      "template": "minecraft:netherite_pickaxe"
+    }
+  ],
+  "jar": "MekanismTools-1.21.1-10.7.19.85.jar",
+  "jar_sha1": "4433b3eec0a5a0bf415d873e710a1cecea5850bc",
+  "skipped_recipes": [
+    "data/mekanismtools/recipe/banner_shield.json",
+    "data/mekanismtools/recipe/bronze/nugget_from_blasting.json",
+    "data/mekanismtools/recipe/bronze/nugget_from_smelting.json",
+    "data/mekanismtools/recipe/bronze/tools/paxel.json",
+    "data/mekanismtools/recipe/diamond_paxel.json",
+    "data/mekanismtools/recipe/gold_paxel.json",
+    "data/mekanismtools/recipe/iron_paxel.json",
+    "data/mekanismtools/recipe/lapis_lazuli/tools/paxel.json",
+    "data/mekanismtools/recipe/osmium/nugget_from_blasting.json",
+    "data/mekanismtools/recipe/osmium/nugget_from_smelting.json",
+    "data/mekanismtools/recipe/osmium/tools/paxel.json",
+    "data/mekanismtools/recipe/refined_glowstone/nugget_from_blasting.json",
+    "data/mekanismtools/recipe/refined_glowstone/nugget_from_smelting.json",
+    "data/mekanismtools/recipe/refined_glowstone/tools/paxel.json",
+    "data/mekanismtools/recipe/refined_obsidian/nugget_from_blasting.json",
+    "data/mekanismtools/recipe/refined_obsidian/nugget_from_smelting.json",
+    "data/mekanismtools/recipe/refined_obsidian/tools/paxel.json",
+    "data/mekanismtools/recipe/steel/nugget_from_blasting.json",
+    "data/mekanismtools/recipe/steel/nugget_from_smelting.json",
+    "data/mekanismtools/recipe/steel/tools/paxel.json",
+    "data/mekanismtools/recipe/stone_paxel.json",
+    "data/mekanismtools/recipe/wood_paxel.json"
+  ]
+}
